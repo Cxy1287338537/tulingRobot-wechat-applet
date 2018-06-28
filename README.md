@@ -6,7 +6,7 @@
 
 ## Preview
 
-[Preview](#GIF.gif)
+![Preview](GIF.gif)
 
 ## Get
 
