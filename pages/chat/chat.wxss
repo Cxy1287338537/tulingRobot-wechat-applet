@@ -1,0 +1,79 @@
+.search-panel {
+  width: 700rpx;
+  height: 100rpx;
+  padding: 20rpx 25rpx;
+  margin-bottom: 50rpx;
+}
+.search-panel > input {
+  width: 500rpx;
+  height: 100rpx;
+  float: left;
+  padding: 0 10rpx;
+  color: #001f3f;
+  border: 6rpx solid #0074d9;
+  border-radius: 10rpx 0 0 10rpx;
+  box-sizing: border-box;
+}
+.search-panel > button {
+  width: 200rpx;
+  height: 100rpx;
+  line-height: 88rpx;
+  float: right;
+  color: #f8f8f8;
+  background-color: #0074d9;
+  border: 6rpx solid #0074d9;
+  border-radius: 0 10rpx 10rpx 0;
+  box-sizing: border-box;
+}
+
+.robot-panel {
+  width: 750rpx;
+  height: 150rpx;
+  padding: 15rpx 25rpx;
+  box-sizing: border-box;
+  box-shadow: 0 0 2rpx #111111;
+  background-color: #ffffff;
+}
+.robot-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 25rpx;
+  float: left;
+  border: 2rpx solid #cccccc;
+  box-sizing: border-box;
+  background-color: #cccccc;
+}
+.robot-info {
+  width: 435rpx;
+  height: 120rpx;
+  float: left;
+}
+.robot-name {
+  width: 435rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 40rpx;
+  color: #001f3f;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.robot-last {
+  width: 435rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  color: #aaaaaa;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.robot-time {
+  width: 120rpx;
+  height: 120rpx;
+  float: right;
+  line-height: 120rpx;
+  text-align: right;
+  color: #aaaaaa;
+  font-size: 26rpx;
+}

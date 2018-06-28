@@ -1,0 +1,16 @@
+<scroll-view scroll-y scroll-top="{{scrollTop}}" class="chat-panel">
+  <view class="chat-list" wx:for="{{robot.chats}}" wx:key="{{key}}">
+    <view class="info-{{item.source?'right':'left'}}">
+      <image mode="aspectFit" src="{{item.source ? userInfo.avatarUrl:robot.avatarUrl}}"></image>
+      <view class="time">{{item.time}}</view>
+    </view>
+    <view class="msg-{{item.source?'left':'right'}}">
+      <view class="msg">{{item.content}}</view>
+    </view>
+    <view class="clear"></view>
+  </view>
+</scroll-view>
+<view class="input-panel">
+  <input class="{{isFocus?'focus':''}}" type="text" bindfocus="onFocus" bindblur="onBlur" bindinput="onInput" value="{{value}}" confirm-hold></input>
+  <button disabled="{{value.length===0}}" type="primary" bindtap="send">发送</button>
+</view>

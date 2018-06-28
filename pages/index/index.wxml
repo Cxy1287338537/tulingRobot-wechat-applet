@@ -1,0 +1,5 @@
+<view class="avatar-panel">
+  <image class="avatar-image" src="{{userInfo.avatarUrl}}" mode="aspectFit"></image>
+</view>
+
+<view class="avatar-name">嗨！{{userInfo.nickName}}</view>

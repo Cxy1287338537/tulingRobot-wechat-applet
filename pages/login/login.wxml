@@ -1,0 +1,12 @@
+<view class="login-panel">
+  <view class="title">图灵机器人将获取您的以下信息：</view>
+  <view class="ul">
+    <view class="li">
+      <icon type="success" size="14" color="#aaaaaa"></icon>用户头像
+    </view>
+    <view class="li">
+      <icon type="success" size="14" color="#aaaaaa"></icon>用户昵称
+    </view>
+  </view>
+  <button type="primary" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">同意授权</button>
+</view>

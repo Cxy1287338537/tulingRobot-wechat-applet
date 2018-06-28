@@ -1,0 +1,16 @@
+<view class="search-panel">
+  <input type="text" placeholder="请输入机器人的名字" bindinput="onInput" adjust-position="false" confirm-type="添加" bindconfirm="addRobot"></input>
+  <button bindtap="addRobot">添加</button>
+</view>
+<view class="robot-panel" wx:for="{{robots}}" wx:key="key" data-in="{{index}}" bindtap="openChat">
+  <image class="robot-avatar" mode="aspectFit" src="{{item.avatarUrl}}"></image>
+  <view class="robot-info">
+    <view class="robot-name">{{item.name}}</view>
+    <view class="robot-last" wx:if="{{item.chats}}">
+      {{item.chats[item.chats.length - 1].content}}
+    </view>
+  </view>
+  <view class="robot-time" wx:if="{{item.chats}}">
+    {{item.chats[item.chats.length - 1].time}}
+  </view>
+</view>

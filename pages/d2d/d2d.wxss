@@ -1,0 +1,134 @@
+.input-panel {
+  position: absolute;
+  bottom: 0;
+  width: 750rpx;
+  height: 120rpx;
+  padding: 10rpx 25rpx;
+  box-sizing: border-box;
+  border-top: 2rpx solid #dddddd;
+  background-color: #ffffff;
+}
+.input-panel > input {
+  width: 540rpx;
+  height: 100rpx;
+  float: left;
+  padding: 0 10rpx;
+  border-bottom: 2rpx solid #aaaaaa;
+  box-sizing: border-box;
+}
+.input-panel > input.focus {
+  border-color: #1aad19;
+}
+.input-panel > button {
+  width: 160rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  float: right;
+}
+
+.chat-panel {
+  position: absolute;
+  width: 750rpx;
+  height: calc(100% - 120rpx);
+  top: 0rpx;
+  overflow: auto;
+}
+ .chat-list {
+  width: 750rpx;
+  min-height: 200rpx;
+  margin: 20rpx 0;
+}
+.chat-list > .info-left,
+.chat-list > .info-right {
+  width: 170rpx;
+  height: 200rpx;
+}
+.info-left {
+  float: left;
+}
+.info-right {
+  float: right;
+}
+.chat-list > .msg-left,
+.chat-list > .msg-right {
+  position: relative;
+  width: 580rpx;
+  min-height: 200rpx;
+  padding: 20rpx 25rpx;
+  box-sizing: border-box;
+}
+.msg-left {
+  float: left;
+}
+.msg-right {
+  float: right;
+}
+.msg-left > .msg {
+  float: right;
+  background-color: #9ede6a;
+}
+.msg-left > .msg::after {
+  content: '';
+  position: absolute;
+  width:0; 
+  height:0; 
+  top: 20rpx;
+  right: -16rpx;
+  border-top: 20rpx solid transparent;
+  border-bottom: 20rpx solid transparent;
+  border-left: 20rpx solid #9ede6a;
+}
+.msg-right > .msg {
+  float: left;
+}
+.msg-left > .msg {
+  float: right;
+  background-color: #9ede6a !important;
+}
+.msg-right > .msg::after {
+  content: '';
+  position: absolute;
+  width:0; 
+  height:0; 
+  top: 20rpx;
+  left: -16rpx;
+  border-top: 20rpx solid transparent;
+  border-bottom: 20rpx solid transparent;
+  border-right: 20rpx solid #ffffff;
+}
+
+.chat-list image {
+  width: 120rpx;
+  height: 120rpx;
+  margin: 20rpx 25rpx;
+  border: 2rpx solid #cccccc;
+  background-color: #cccccc;
+  box-sizing: border-box;
+}
+.chat-list .time {
+  width: 170rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+  color: #aaaaaa;
+  font-size: 26rpx;
+}
+.chat-list .msg {
+  position: relative;
+  max-width: calc(100% - 50rpx);
+  padding: 30rpx 35rpx;
+  border-radius: 10rpx;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 0 2rpx rgba(0, 0, 0, 0.15);
+  word-break: break-all;
+}
+
+.clear {
+  clear: both;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

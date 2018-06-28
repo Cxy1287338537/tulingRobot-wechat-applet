@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/login/login",
+    "pages/d2d/d2d"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0074d9",
+    "navigationBarTitleText": "图灵机器人"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "我",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/people.png",
+        "selectedIconPath": "images/people_fill.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/chat/chat",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message_fill.png"
+      }
+    ],
+    "color": "#aaaaaa",
+    "selectedColor": "#0074d9",
+    "backgroundColor": "#ffffff"
+  }
+}

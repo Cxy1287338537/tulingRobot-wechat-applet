@@ -1,0 +1,25 @@
+.avatar-panel {
+  width: 320rpx;
+  height: 320rpx;
+  padding: 150rpx 215rpx;
+}
+.avatar-panel > .avatar-image {
+  width: 320rpx;
+  height: 320rpx;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 10rpx solid #ffffff;
+  box-shadow: 0 0 6rpx #001f3f;
+}
+
+.avatar-name {
+  width: 750rpx;
+  height: 100rpx;
+  padding: 20rpx 25rpx;
+  margin-top: 200rpx;
+  text-align: center;
+  line-height: 60rpx;
+  font-size: 48rpx;
+  color: #001f3f;
+  box-sizing: border-box;
+}

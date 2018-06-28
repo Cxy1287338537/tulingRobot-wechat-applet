@@ -1,0 +1,33 @@
+.login-panel {
+  width: 700rpx;
+  padding: 25rpx;
+}
+.login-panel > .title {
+  width: 700rpx;
+  padding: 20rpx 30rpx;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #938D7B;
+  border-radius: 10rpx;
+  border: 1px solid #F3EFDD;
+  background-color: #FDF8E5;
+  box-sizing: border-box;
+}
+.login-panel > .ul {
+  width: 700rpx;
+  padding: 20rpx 15rpx;
+  box-sizing: border-box;
+}
+.ul > .li {
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #001f3f;
+  font-size: 30rpx;
+}
+.li > icon {
+  margin-right: 20rpx;
+}
+button {
+  margin-top: 20rpx;
+}
