@@ -24,5 +24,5 @@ $ git clone https://github.com/Cxy1287338537/tulingRobot-wechat-applet.git
 
 [author](#) 橙续缘
 
-[ * ] wechat: Jack1287338537
-[ * ] email: 13560784981@163.com
+[x] wechat: Jack1287338537
+[x] email: 13560784981@163.com
